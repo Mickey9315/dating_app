@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 function Reset() {
   const router = useRouter();
   const before = () => {
-    router.push("/reset");
+    router.back();
   };
 
   const [password, setPassword] = useState("");

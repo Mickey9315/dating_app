@@ -6,31 +6,31 @@ export default function Home() {
     <div className="flex flex-col gap-4">
       <div>Onboard</div>
       <div className="flex flex-col gap-4 ml-4">
-        <Link className="hover:text-blue-500" href={"/login"}>
+        <Link className="hover:text-blue-500" href={"/auth/login"}>
           Login
         </Link>
-        <Link className="hover:text-blue-500" href={"/reset1"}>
+        <Link className="hover:text-blue-500" href={"/auth/reset1"}>
           Reset1
         </Link>
-        <Link className="hover:text-blue-500" href={"/reset1"}>
+        <Link className="hover:text-blue-500" href={"/auth/reset1"}>
           Reset1
         </Link>
-        <Link className="hover:text-blue-500" href={"/setA1"}>
+        <Link className="hover:text-blue-500" href={"/setup/1"}>
           setA1
         </Link>
-        <Link className="hover:text-blue-500" href={"/setA2"}>
+        <Link className="hover:text-blue-500" href={"/setup/2"}>
           setA2
         </Link>
-        <Link className="hover:text-blue-500" href={"/setA3"}>
+        <Link className="hover:text-blue-500" href={"/setup/3"}>
           setA3
         </Link>
-        <Link className="hover:text-blue-500" href={"/setA6"}>
+        <Link className="hover:text-blue-500" href={"/setup/6"}>
           setA6
         </Link>
-        <Link className="hover:text-blue-500" href={"/setA7"}>
+        <Link className="hover:text-blue-500" href={"/setup/7"}>
           setA7
         </Link>
-        <Link className="hover:text-blue-500" href={"/setA9"}>
+        <Link className="hover:text-blue-500" href={"/setup/9"}>
           setA9
         </Link>
       </div>

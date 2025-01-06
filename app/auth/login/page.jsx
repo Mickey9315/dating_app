@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import StyleSolidTypeRounded from "../components/StyleSolidTypeRounded";
+import StyleSolidTypeRounded from "../../components/StyleSolidTypeRounded";
 
 function Login() {
   const [email, setEmail] = useState("");

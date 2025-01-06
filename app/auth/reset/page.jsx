@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 function Reset() {
   const router = useRouter();
   const Next = () => {
-    router.push("/reset1");
+    router.push("/auth/reset1");
   };
 
   return (

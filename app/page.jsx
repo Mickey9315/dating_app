@@ -39,8 +39,8 @@ export default function Home() {
         <Link className="hover:text-blue-500" href={"/profile"}>
           Profile
         </Link>
-        <Link className="hover:text-blue-500" href={"/profile/policy"}>
-          Policy
+        <Link className="hover:text-blue-500" href={"/notification"}>
+          Notification
         </Link>
       </div>
     </div>

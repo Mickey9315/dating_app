@@ -16,7 +16,7 @@ function SetAccount6() {
 
   return (
     <div className="relative flex flex-col flex-grow animate-slide-in-right">
-      <div className="max-w-2xl w-full mx-auto py-8 h-full flex flex-col flex-grow">
+      <div className="max-w-2xl w-full mx-auto pt-8 h-full flex flex-col flex-grow">
         <button
           className="w-7 h-8 rounded-full hover:bg-gray-100"
           onClick={() => router.push("/setA3")}

@@ -33,6 +33,15 @@ export default function Home() {
         <Link className="hover:text-blue-500" href={"/setup/9"}>
           setA9
         </Link>
+        <Link className="hover:text-blue-500" href={"/onboard"}>
+          Onboard
+        </Link>
+        <Link className="hover:text-blue-500" href={"/profile"}>
+          Profile
+        </Link>
+        <Link className="hover:text-blue-500" href={"/profile/policy"}>
+          Policy
+        </Link>
       </div>
     </div>
   );
